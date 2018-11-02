@@ -4,74 +4,85 @@
   <title>Hailey Halterman's Portfolio</title>
 
   <meta charset="utf-8">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
    <link rel="stylesheet" type= "text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-        <header>
+<header class="col-xs-12" id="colorbar">
+    <div class="container nav-container">
 
-                <div id="colorbar">
-                    <div id="top">
-                        <div id="name">
-                            <h1>
-                                <a href="index.html">Hailey Halterman</a>
-                            </h1>
-                        </div><!--- close name--->
-                
-                        <nav>
-                            <ul>
-                                <li><a href="index.html">About</a></li>
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </nav>
-                    </div> <!--- close top--->
-                </div> <!--- close color bar--->
-                
-        </header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <h1>Hailey Halterman</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div> <!--- close .container--->        
+</header>
 
-    <div id="wrapper">
+<main class="container">
 
-        <main class="extend">
-                <h2 class="spaceafter">
-                        Portfolio
-                    </h2>
-        
-                        <div id="placeholder1">
-                            <img src="assets/images/placeholder.jpg" width= 275px length=205px/> 
-                            <h3><a href="#">Coding Bootcamp Projects</a></h3>            
-                        </div>
-        
-                        <div id="placeholder2">
-                            <img src="assets/images/placeholder.jpg" width= 275px length=205px/> 
-                            <h3><a href="#">Web Design</a></h3>      
-                        </div>
-                    
-                        <div id="placeholder3">
-                            <img src="assets/images/placeholder.jpg" width= 275px length=205px/>
-                            <h3><a href="#">Print Media</a></h3>      
-                        </div>
-        
-                        <div id="placeholder4">
-                                <img src="assets/images/placeholder.jpg" width= 275px length=205px/>
-                                <h3><a href="#">Photography</a></h3>      
-                        </div>
-        
-                        <div id="placeholder5">
-                                <img src="assets/images/placeholder.jpg" width= 275px length=205px/>
-                                <h3> <a href="#">Graphic Design</a></h3>      
-                        </div>
-        </main>
+    <div class="row">
+        <div class="col-md-12 mb-5">
+            <h2>
+                Contact
+            </h2>
+        </div>  <!--cose col-12-->
+    </div> <!-- close row-->
 
-    </div> <!-- close wrapper -->
+    <div class="row">
+            <div class="col-md-4 placeholder mb-4">
+                <img src="assets/images/placeholder.jpg"class="img-fluid"/>  
+                <h3><a href="#" class="img-fluid">Coding BootCamp</a></h3>        
+            </div>
+            <div class="col-md-4 placeholder mb-4">
+                <img src="assets/images/placeholder.jpg"class="img-fluid"/>   
+                <h3><a href="#" class="img-fluid">Web Design</a></h3>    
+            </div>
+        </div> <!--close row-->
+        <div class="row">
+            <div class="col-md-4 placeholder mb-4">
+                <img src="assets/images/placeholder.jpg" class="img-fluid"/>
+                <h3><a href="#" class="img-fluid">Print Media</a></h3>
+            </div>     
+            <div class="col-md-4 placeholder mb-4">
+                <img src="assets/images/placeholder.jpg"class="img-fluid"/>   
+                <h3><a href="#" class="img-fluid">Photography</a></h3>
+            </div>
+        </div> <!--close row-->
+        <div class="row">
+            <div class="col-md-4 placeholder mb-4">
+                <img src="assets/images/placeholder.jpg"class="img-fluid"/>  
+                <h3><a href="#" class="img-fluid">Graphic Design</a></h3>
+            </div>
+        </div> <!--close row-->
+
+
+</main> <!-- close container -->
+
+<footer class="col-md-12">
+    <p>
+        Copyright© 
+    </p>
+</footer>
 
 </body>
-
-    <footer>
-        <p>
-            Copyright© 
-        </p>
-    </footer>
 
 </html>

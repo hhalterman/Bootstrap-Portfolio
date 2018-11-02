@@ -4,49 +4,54 @@
   <title>Hailey Halterman's Portfolio</title>
 
   <meta charset="utf-8">
-   <link rel="stylesheet" type= "text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type= "text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-        <header>
+<header class="col-xs-12 mb-5" id="colorbar">
+   <div class="container nav-container">
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+           <a class="navbar-brand" href="index.html">
+               <h1>Hailey Halterman</h1>
+           </a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+               <ul class="navbar-nav">
+                   <li class="nav-item">
+                       <a class="nav-link" href="index.html">About</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="portfolio.html">Portfolio</a>
+                   </li>
+                   <li class="nav-item">
+                       <a class="nav-link" href="contact.html">Contact</a>
+                   </li>
+               </ul>
+           </div>
+       </nav>
+   </div> <!--- close .container--->        
+</header>
 
-                <div id="colorbar">
-                    <div id="top">
-                        <div id="name">
-                            <h1>
-                                <a href="index.html">Hailey Halterman</a>
-                            </h1>
-                        </div><!--- close name--->
-                
-                        <nav>
-                            <ul>
-                                <li><a href="index.html">About</a></li>
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </nav>
-                    </div> <!--- close top--->
-                </div> <!--- close color bar--->
-                
-        </header>
+<main class="container">
 
-    <div id="wrapper">
-
-    <main>
+    <div class ="col-md-12">
         <h2 class="spaceafter">
             Thank you for your message!
         </h2>
         <p>
             I will return your message at my earliest convenience.
         </p>
-    </main>
+    </div>
 
-    </div> <!-- close wrapper -->
+</main> <!-- close wrapper -->
 
 </body>
 
-    <footer class="spaceabove">
+    <footer class="spaceabove" >
         <p>
             Copyright© 
         </p>
